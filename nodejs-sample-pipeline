@@ -3,7 +3,7 @@ def templateName = 'nodejs-mongodb-example'
 pipeline {
   agent {
     node {
-      label 'nodejs' 
+      any
     }
   }
   options {
